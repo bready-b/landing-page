@@ -5,10 +5,10 @@
 }
 
 .header .header-container {
+  /* border: 2px solid black; */
   display: flex;
   flex-direction: row;
-  border: 2px solid black;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 75px;
   background-color: #1f2937;
@@ -17,8 +17,8 @@
 }
 
 .header .logo {
-  font-size: 40px;
-  color: #f9faf8;
+  font-size: 30px;
+  color: #f9faf8c5;
   font-family: cursive;
 }
 
@@ -28,16 +28,16 @@
 }
 
 .header ul li {
-  align-items: center;
-  margin-left: 60px;
+  margin-left: 2.5em;
   color: #f9faf8;
-  font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
   font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .header li:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .under-header {
@@ -61,7 +61,7 @@
 }
 
 .under-header p {
-  font-size: 28px;
+  font-size: 25px;
   color: #f9faf8;
   max-width: 600px;
   padding: 20px;
@@ -102,8 +102,6 @@
   justify-content: center;
   background-color: #e5e7eb;
   height: 400px;
-  
-  
 }
 
 .quote-body .quote-container {
@@ -116,7 +114,7 @@
 }
 
 .quote-body p {
-  font-size: 36px;
+  font-size: 30px;
   color: #1f2937;
   display: flex;
   justify-content: flex-end;
@@ -124,7 +122,7 @@
 }
 
 .quote-body b {
-  font-size: 25px;
+  font-size: 22px;
  /*   display: flex;
   justify-content: flex-end; */
 }
